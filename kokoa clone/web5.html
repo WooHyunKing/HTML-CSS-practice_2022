@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+      div {
+        width: 500px;
+        height: 500px;
+        background-color: wheat;
+        position: relative;
+      }
+      #green2 {
+        position: fixed;
+        background-color: teal;
+        opacity: 0.2;
+      }
+      #different {
+        background-color: wheat;
+      }
+      .green {
+        background-color: teal;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100px;
+        width: 100px;
+      }
+      span {
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      p span {
+        color: white;
+      }
+      p ~ span {
+        text-decoration: underline;
+      }
+      input {
+        border: 1px solid slateblue;
+      }
+      input:required {
+        border: 1px solid tomato;
+      }
+      input[placeholder~="Name"] {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span>hello</span>
+      <p>I'm Woohyun King <span>inside</span></p>
+      <address>hi</address>
+      <span>hello</span>
+      <form>
+        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Second Name" />
+        <input type="password" required placeholder="password" />
+      </form>
+    </div>
+  </body>
+</html>
