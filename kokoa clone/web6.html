@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      button:hover {
+        background-color: tomato;
+      }
+      input:focus {
+        background-color: blueviolet;
+      }
+      a:visited {
+        color: aqua;
+      }
+      a:hover {
+        color: cornflowerblue;
+      }
+      a:focus {
+        color: darkgreen;
+      }
+      form {
+        border: 1px solid salmon;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+      }
+      form:focus-within {
+        border-color: seagreen;
+      }
+      form:hover input:focus {
+        background-color: darkorange;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button>Hello</button>
+      <input type="text" />
+      <input type="text" />
+    </div>
+    <a href="https://www.naver.com/">Go to naver</a>
+    <form>
+      <input type="text" name="" id="" />
+      <input type="text" name="" id="" />
+      <input type="text" name="" id="" />
+    </form>
+  </body>
+</html>
