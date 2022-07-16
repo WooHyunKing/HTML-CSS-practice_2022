@@ -1,0 +1,120 @@
+body{
+    background-color:gold;
+    margin: 0;
+}
+.top{
+    padding:40px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.lib{
+    font-size:50px;
+}
+.search{
+    display:flex;
+    justify-content: center;
+    border:1px solid darkgray;
+    border-radius:40%;
+    padding:20px;
+    width:90%;
+    height: 20px;
+    margin:0;
+    color:darkgray;
+}
+
+.te{
+    border:0;
+    font-size: large;
+    margin-right: 50%;
+}
+
+a{
+    color:darkgray;
+}
+.bottom{
+    background-color: white;
+    margin:0px 0px 0px 0px;
+    width:100%;
+    height: 200vh;
+    padding:30px;
+}
+
+.info{
+    display:flex;
+}
+.img1{
+    border-radius: 20px;
+    height:250px;
+}
+.bookinfo{
+    margin-left: 20px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bookinfo h3{
+    color:darkgray;
+}
+.gray-par{
+    padding:5px;
+    margin:10px 0;
+}
+.gray{
+    background-color:whitesmoke;
+    border-radius: 5px;
+    padding:5px;
+}
+.book-buy{
+    display:flex;
+}
+.bookmark{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    background-color: black;
+    color:gray;
+    border-radius: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.p{
+    color:goldenrod;
+}
+.img2{
+    border-radius: 20px;
+    height:200px;
+    width:150px;
+    margin-right: 15px;
+}
+.books{
+    display: flex;
+}
+.geo-img{
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+}
+.geo-info{
+    display:flex;
+}
+.geo-text{
+    margin-left: 20px;
+    
+}
+
+.geo-text p{
+    color:darkgray;
+    font-size: 20px;
+}
