@@ -1,0 +1,207 @@
+@import "component/status-bar.css";
+
+html{
+    background-color:whitesmoke;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.page{
+    background-color:white;
+    width: 350px;
+    height: 760px;
+    margin:60px 50px 60px 50px;
+    
+    box-shadow:0px 5px 18px -7px rgba(0,0,0,1);
+    border-radius: 20px;
+    padding:20px 10px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.artist-info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.artist-info img{
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow:0px 10px 40px -7px #F5E615;
+    margin-bottom: 20px;
+}
+.artist-info h2{
+    margin-bottom:10px;
+}
+.artist-info h4{
+    color:gray;
+    margin-top:0;
+}
+.artist-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom:10px;
+}
+.artist-button button{
+    border:0px;
+    font-size: 15px;
+    width:125px;
+    background-color: #222222;
+    border-radius: 50px;
+    color:white;
+    padding:15px 20px;
+    margin: 0px 10px;
+}
+
+.artist-button button:nth-child(2){
+    background-color: whitesmoke;
+    color:gray;
+}
+
+.fa-heart {
+    color:#222222;
+    margin-right: 5px;
+}
+.song-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.song-bar{
+    display: flex;
+    align-items: center;
+    width:300px;
+    height: 80px;
+    border-radius: 20px;
+    margin:5px 10px;
+    box-shadow:0px 5px 15px -7px rgba(0,0,0,1);
+    position: relative;
+}
+
+.song-bar p{
+    margin:5px 10px;
+    color:gray;
+}
+
+.song-bar p:nth-child(2){
+    font-size:20px;
+    font-weight: 600;
+    color:#222222;
+}
+
+.song-bar img{
+    width:52px;
+    height: 52px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.playing-song{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px 5px;
+    border-radius: 50px;
+    box-shadow:0px 5px 15px -7px rgba(0,0,0,1);
+    background-color: #222222;
+    color: white;
+}
+
+.playing-song div{
+    margin:0px 20px;
+    padding:5px;
+}
+
+.playing-song div p{
+    margin:10px 0;
+}
+
+.playing-song div p:first-child{
+    color:gray;
+}
+
+.playing-song div p:nth-child(2){
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.playing-song div i{
+    margin:2px;
+}
+
+.song-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.song-info img{
+    width: 270px;
+    height: 270px;
+    border-radius: 20px;
+    box-shadow:0px 30px 200px -7px #CAB193;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.song-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.song-artist{
+    color:gray;
+}
+
+.song-playbar{
+    background-color: white;
+}
+
+input, progress{
+    accent-color: black;
+    width: 300px;
+}
+
+.song-range{
+    width:85%;
+    display: flex;
+    justify-content: space-between;
+    color:gray;
+}
+
+.song-button{
+    display: flex;
+    align-items: center;
+    margin-top:70px;
+}
+
+.song-button i{
+    margin:0 15px;
+}
+
+.song-button i:first-child{
+    color:gray;
+}
+
+.song-button i:last-child{
+    color:gray;
+}
+
+.song-bar i{
+    position: absolute;
+    left:22px;
+    font-size: 30px;
+    color:white;
+}
+
+.fa-circle-pause{
+    box-shadow:0px 5px 30px -7px rgba(0,0,0,1);
+    border-radius: 50%;
+}
